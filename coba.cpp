@@ -9,7 +9,7 @@ void main() {
     float alas, tinggi, luas;
 
     // Membaca dari file input
-    ifstream fileInput("C:/tugas_algo/file/01_input.txt");
+    ifstream fileInput("01_input.txt");
     
     if (!fileInput) {
         cout << "File tidak ditemukan!" << endl;
@@ -24,7 +24,7 @@ void main() {
     luas = (alas * tinggi) / 2;
 
     // Menulis hasil ke file output
-    ofstream fileOutput("C:/tugas_algo/file/01_output.txt");
+    ofstream fileOutput("01_output.txt");
     
     if (!fileOutput) {
         cout << "Gagal membuat file output!" << endl;
